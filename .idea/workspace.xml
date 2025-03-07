@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f28a376-b1cc-4f08-a932-77c39eb23708" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_manager/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_manager/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_manager/GraphicMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_manager/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_manager/Priority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_manager/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_manager/TaskStatus.java" afterDir="false" />
+    <list default="true" id="2f28a376-b1cc-4f08-a932-77c39eb23708" name="Changes" comment="Залив">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +44,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -78,8 +65,17 @@
       <updated>1741126391687</updated>
       <workItem from="1741126392869" duration="2148000" />
       <workItem from="1741295470727" duration="7579000" />
-      <workItem from="1741353807402" duration="715000" />
+      <workItem from="1741353807402" duration="2391000" />
     </task>
+    <task id="LOCAL-00001" summary="Залив">
+      <option name="closed" value="true" />
+      <created>1741354797944</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741354797944</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,5 +91,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Залив" />
+    <option name="LAST_COMMIT_MESSAGE" value="Залив" />
   </component>
 </project>
