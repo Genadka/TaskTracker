@@ -56,6 +56,38 @@ public class Employee {
         return countTask;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+
+    public void setMail(String mail) {
+        this.mail = mail;
+    }
+
+    public void setJobTitle(String jobTitle) {
+        this.jobTitle = jobTitle;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    public void setBonus(double bonus) {
+        this.bonus = bonus;
+    }
+
+    public void setCountTask(int countTask) {
+        this.countTask = countTask;
+    }
+
     @Override
     public String toString() {
         return "Employee{" +

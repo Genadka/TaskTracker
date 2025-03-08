@@ -4,36 +4,35 @@ import java.time.LocalDateTime;
 
 public class Task {
 
-    private String id;
+    private int id;
+    private static final int nextId = 1;
     private String description;
     private TaskStatus status;
     private Employee executor;
     private Employee author;
-    private LocalDateTime taskDateTime;
+    private LocalDateTime dateTimeTaskCreation;
     private LocalDateTime timeLimit;
     private Priority priority;
-    private double completionDate;
+    private LocalDateTime completionDate;
 
     public Task() {
     }
 
-    public Task(String id, String description, TaskStatus status, Employee executor, Employee author,
-                LocalDateTime taskDateTime, LocalDateTime timeLimit, Priority priority, double completionDate) {
-        this.id = id;
+    public Task(int nextId, int id, String description, TaskStatus status, Employee executor, Employee author,
+                LocalDateTime dateTimeTaskCreation, LocalDateTime timeLimit, Priority priority, LocalDateTime completionDate) {
+        this.id = nextId;
+        nextId++;
         this.description = description;
         this.status = status;
         this.executor = executor;
         this.author = author;
-        this.taskDateTime = LocalDateTime.now();
+        this.dateTimeTaskCreation = LocalDateTime.now();
         this.timeLimit = timeLimit;
         this.priority = priority;
         this.completionDate = completionDate;
     }
 
-    public void addTask() {
-    }
-
-    public String getId() {
+    public int getId() {
         return id;
     }
 
@@ -53,8 +52,8 @@ public class Task {
         return author;
     }
 
-    public LocalDateTime getTaskDateTime() {
-        return taskDateTime;
+    public LocalDateTime getDateTimeTaskCreation() {
+        return dateTimeTaskCreation;
     }
 
     public LocalDateTime getTimeLimit() {
@@ -65,8 +64,44 @@ public class Task {
         return priority;
     }
 
-    public double getCompletionDate() {
+    public LocalDateTime getCompletionDate() {
         return completionDate;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setStatus(TaskStatus status) {
+        this.status = status;
+    }
+
+    public void setExecutor(Employee executor) {
+        this.executor = executor;
+    }
+
+    public void setAuthor(Employee author) {
+        this.author = author;
+    }
+
+    public void setDateTimeTaskCreation(LocalDateTime dateTimeTaskCreation) {
+        this.dateTimeTaskCreation = dateTimeTaskCreation;
+    }
+
+    public void setTimeLimit(LocalDateTime timeLimit) {
+        this.timeLimit = timeLimit;
+    }
+
+    public void setPriority(Priority priority) {
+        this.priority = priority;
+    }
+
+    public void setCompletionDate(LocalDateTime completionDate) {
+        this.completionDate = completionDate;
     }
 
     @Override
@@ -77,7 +112,7 @@ public class Task {
                 ", status=" + status +
                 ", executor=" + executor +
                 ", author=" + author +
-                ", taskDateTime=" + taskDateTime +
+                ", taskDateTime=" + dateTimeTaskCreation +
                 ", timeLimit=" + timeLimit +
                 ", priority=" + priority +
                 ", completionDate=" + completionDate +
